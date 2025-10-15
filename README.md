@@ -93,23 +93,23 @@ Você pode informar o departamento pelo ID ou nome (sem diferença entre maiúsc
 0 - Sair
 Encerra o programa. (Se o sistema estiver com persistência ativa, salvaria os dados aqui.)
 
-📌 Exemplos de Interações
+## 📌 Exemplos de Interações
 ➕ Adicionando Funcionário:
 Nome: João
 Cargo: Analista
 Salário: 4500
 Funcionário adicionado com ID: A1b2C
 
-🗃 Listando Departamentos:
+## 🗃 Listando Departamentos:
 ID: dept1, Nome: Recursos Humanos
 ID: dept2, Nome: Tecnologia da Informação
 
-🔄 Atribuindo Funcionário:
+## 🔄 Atribuindo Funcionário:
 ID do funcionário: A1b2C
 Informe ID ou nome do departamento: tecnologia da informação
 Funcionário atribuído ao departamento.
 
-💡 Observações Importantes
+## 💡 Observações Importantes
 IDs são gerados automaticamente com 5 caracteres usando a lib nanoid
 Os salários precisam ser números válidos e positivos
 Departamentos podem ser buscados por ID ou nome, mesmo que o nome esteja em letras maiúsculas ou minúsculas
