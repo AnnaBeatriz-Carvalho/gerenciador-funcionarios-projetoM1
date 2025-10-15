@@ -1,0 +1,18 @@
+[
+  {
+    "id": "dep001xyz",
+    "nome": "Tecnologia"
+  },
+  {
+    "id": "dep002xyz",
+    "nome": "Recursos Humanos"
+  },
+  {
+    "id": "dep003xyz",
+    "nome": "Design"
+  },
+  {
+    "id": "dep004xyz",
+    "nome": "Marketing"
+  }
+]

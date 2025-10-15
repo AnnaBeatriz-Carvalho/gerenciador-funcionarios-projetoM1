@@ -1,0 +1,58 @@
+[
+  {
+    "id": "abc123def4",
+    "nome": "Maria Silva",
+    "cargo": "Analista de Sistemas",
+    "salario": 7000.5,
+    "ativo": true,
+    "departamentoId": "dep001xyz"
+  },
+  {
+    "id": "xyz789ghi0",
+    "nome": "Carlos Souza",
+    "cargo": "Desenvolvedor",
+    "salario": 6000,
+    "ativo": true,
+    "departamentoId": "dep002xyz"
+  },
+  {
+    "id": "lmn456opq7",
+    "nome": "Ana Pereira",
+    "cargo": "Designer Gráfico",
+    "salario": 4500,
+    "ativo": true,
+    "departamentoId": "dep003xyz"
+  },
+  {
+    "id": "stu321vwx8",
+    "nome": "João Santos",
+    "cargo": "Gerente de Projetos",
+    "salario": 9000,
+    "ativo": true,
+    "departamentoId": "dep001xyz"
+  },
+  {
+    "id": "efg654hij9",
+    "nome": "Fernanda Costa",
+    "cargo": "Analista de Marketing",
+    "salario": 5500,
+    "ativo": true,
+    "departamentoId": "dep004xyz"
+  },
+  {
+    "id": "eRqzRjXQri",
+    "nome": "Maria Carvalho",
+    "cargo": "Analista de RH",
+    "salario": 3000,
+    "ativo": true,
+    "departamentoId": "dep002xyz"
+  },
+  {
+    "id": "VIblQo7dF-",
+    "nome": "Anna Carvalho",
+    "cargo": "Desenvolvedora Front-End",
+    "salario": 3000,
+    "ativo": true,
+    "departamentoId": "dep001xyz"
+  }
+]
