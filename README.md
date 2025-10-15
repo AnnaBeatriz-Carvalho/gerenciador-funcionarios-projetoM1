@@ -1,131 +1,158 @@
-# 👥 gerenciador-funcionarios-projetoM1
-Um sistema de gerenciamento de funcionários e departamentos em Node.js com interface interativa via terminal. Permite adicionar, listar, atualizar, remover funcionários e departamentos, bem como atribuir funcionários a departamentos.
-Este projeto é um gerenciador de funcionarios, voltado para uso em departamentos como o de Recursos Humanos. Esse projeto foi desenvolvido em squad como projeto final do modulo 1.
+👥 Gerenciador de Funcionários – Projeto M1
+
+Um sistema de gerenciamento de funcionários e departamentos desenvolvido em Node.js com interface interativa via terminal.
+Ideal para uso em setores como Recursos Humanos, este projeto foi desenvolvido em squad como projeto final do Módulo 1.
+
+📦 Funcionalidades
+
+✅ Adicionar funcionários com nome, cargo, salário e se possuem filhos
+
+✅ Listar todos os funcionários
+
+✅ Atualizar dados de um funcionário
+
+✅ Remover um funcionário
+
+✅ Adicionar departamentos
+
+✅ Listar departamentos
+
+✅ Atualizar ou remover departamentos
+
+✅ Atribuir um funcionário a um departamento
+
+✅ Verificar se o funcionário possui filhos
+
+🧰 Tecnologias Utilizadas
+
+Node.js
+
+ESModules (type: "module")
+
+Módulo nativo readline
+
+Biblioteca nanoid
+ para geração de IDs únicos
+
+⚙️ Requisitos
+
+Node.js versão 14 ou superior
+
+Terminal com suporte a entrada interativa
+
+🚀 Como Executar
+
+Clone o repositório
+
+git clone https://github.com/usuario/gerenciador-funcionarios-projetoM1.git
+cd gerenciador-funcionarios-projetoM1
 
 
-## 📦 Funcionalidades
+Instale as dependências
 
-- ✅ Adicionar funcionários com nome, cargo e salário
-- ✅: Listar todos os funcionários
-- ✅: Atualizar dados de um funcionário
-- ✅: Remover um funcionário
-- ✅: Adicionar departamentos
-- ✅: Listar departamentos
-- ✅: Atualizar ou remover departamentos
-- ✅: Atribuir um funcionário a um departamento
-
-## 🧰 Tecnologias
-- Node.js
-- ESModules (type: "module")
-- Módulo nativo readline
-- Biblioteca [nanoid](https://www.npmjs.com/package/nanoid) para geração de IDs únicos
-
-## ⚙️ Requisitos
-- Node.js 14+ instalado
-- Terminal com suporte a entrada interativa
-  
-## 🚀 Como Executar
-1. **Instale as dependências** (apenas o nanoid):
-   
-bash
 npm install nanoid
-Execute o sistema no terminal:
+
+
+Execute o sistema
 
 node src/index.js
 
-Use o menu para navegar pelas opções:
+🧭 Menu Principal
 Gerenciador de Funcionários
-1 - Adicionar funcionário
-2 - Listar funcionários
-3 - Atualizar funcionário
-4 - Remover funcionário
-5 - Adicionar departamento
-6 - Listar departamentos
-7 - Atualizar departamento
-8 - Remover departamento
-9 - Atribuir funcionário a departamento
-0 - Sair
+
+1 - Adicionar funcionário  
+2 - Listar funcionários  
+3 - Atualizar funcionário  
+4 - Remover funcionário  
+5 - Adicionar departamento  
+6 - Listar departamentos  
+7 - Atualizar departamento  
+8 - Remover departamento  
+9 - Atribuir funcionário a departamento  
+0 - Sair  
 
 📌 O Que Cada Opção Faz
-1 - Adicionar funcionário
+1 - Adicionar Funcionário
 Solicita:
 Nome
 Cargo
 Salário
-O sistema gera um ID automaticamente e salva o funcionário.
+Possui filhos? (Sim/Não)
+Gera um ID único automaticamente e salva o funcionário.
 
-2 - Listar funcionários
-Mostra todos os funcionários cadastrados com seus dados:
+2 - Listar Funcionários
+Exibe:
 ID
 Nome
 Cargo
 Salário
-Se está ativo
-A qual departamento pertence (se houver)
+Status (Ativo)
+Departamento (se houver)
+Possui filhos: Sim ou Não
 
-3 - Atualizar funcionário
-Permite atualizar os dados de um funcionário específico informando seu ID.
-Você pode alterar:
+3 - Atualizar Funcionário
+Atualiza os dados de um funcionário informado por ID.
+É possível alterar:
 Nome
 Cargo
 Salário
-Pode deixar campos em branco para manter os dados atuais.
+Informação sobre filhos
+Campos em branco mantêm os dados atuais.
 
-4 - Remover funcionário
-Remove um funcionário do sistema com base no ID informado.
+4 - Remover Funcionário
+Remove um funcionário com base no ID informado.
 
-5 - Adicionar departamento
-Cria um novo departamento informando apenas o nome. O ID é gerado automaticamente.
+5 - Adicionar Departamento
+Cria um novo departamento informando apenas o nome.
+ID é gerado automaticamente.
 
-6 - Listar departamentos
-Exibe todos os departamentos cadastrados, com ID e nome.
+6 - Listar Departamentos
+Exibe todos os departamentos com:
+ID
+Nome
 
-7 - Atualizar departamento
-Permite alterar o nome de um departamento, informando seu ID atual.
+7 - Atualizar Departamento
+Permite alterar o nome de um departamento via ID.
 
-8 - Remover departamento
-Remove um departamento do sistema com base no ID informado.
+8 - Remover Departamento
+Remove um departamento com base no ID informado.
 
-9 - Atribuir funcionário a departamento
-Associa um funcionário a um departamento.
-Você pode informar o departamento pelo ID ou nome (sem diferença entre maiúsculas/minúsculas).
+9 - Atribuir Funcionário a Departamento
+Associa um funcionário a um departamento existente.
+Você pode informar o departamento por:
+ID
+Nome (sem diferenciação entre maiúsculas/minúsculas)
 
-0 - Sair
-Encerra o programa. (Se o sistema estiver com persistência ativa, salvaria os dados aqui.)
+💡 Exemplos de Uso
+➕ Adicionando Funcionário
+Nome: João  
+Cargo: Analista  
+Salário: 4500  
+Possui filhos? sim  
+Funcionário adicionado com ID: A1b2C  
 
-## 📌 Exemplos de Interações
-➕ Adicionando Funcionário:
-Nome: João
-Cargo: Analista
-Salário: 4500
-Funcionário adicionado com ID: A1b2C
+🗃 Listando Departamentos
+ID: dept1 | Nome: Recursos Humanos  
+ID: dept2 | Nome: Tecnologia da Informação  
 
-🗃 Listando Departamentos:
-ID: dept1, Nome: Recursos Humanos
-ID: dept2, Nome: Tecnologia da Informação
+🔄 Atribuindo Funcionário a Departamento
+ID do funcionário: A1b2C  
+Informe ID ou nome do departamento: tecnologia da informação  
+Funcionário atribuído ao departamento.  
 
-🔄 Atribuindo Funcionário:
-ID do funcionário: A1b2C
-Informe ID ou nome do departamento: tecnologia da informação
-Funcionário atribuído ao departamento.
+📎 Observações Importantes
+IDs são gerados com 5 caracteres via nanoid(5)
+Salários devem ser números válidos e positivos
+Atualizações podem ser parciais (ex: apenas nome)
+Departamentos podem ser buscados por ID ou nome (case-insensitive)
+A informação "Possui filhos" é coletada ao adicionar ou atualizar funcionários e exibida nas listagens
 
-## 💡 Observações Importantes
-IDs são gerados automaticamente com 5 caracteres usando a lib nanoid
-Os salários precisam ser números válidos e positivos
-Departamentos podem ser buscados por ID ou nome, mesmo que o nome esteja em letras maiúsculas ou minúsculas
-Campos deixados vazios em atualizações não são modificados
+## 👩‍💼 Autores
+Ana Beatriz – Líder
+Marcelo Henrique
+Lindicy
+João Lucas
+Vanessa
+Marcos
 
-❗ Observações
-IDs são gerados automaticamente com 5 caracteres (nanoid(5))
-Departamentos podem ser buscados por ID ou nome
-O sistema aceita atualizações parciais (ex: apenas nome)
-Os salários devem ser números positivos
-
-
-## 👩‍💼 Autores:
-Ana Beatriz – Líder,
-Marcelo Henrique,
-Lindicy,
-João Lucas,
-Vanessa,
-Marcos,
+Marcos
