@@ -123,12 +123,9 @@ Os salários devem ser números positivos
 
 
 ## 👩‍💼 Autores:
-Ana Beatriz – Líder
-Marcelo Henrique
-Lindicy
-João Lucas
-Vanessa
-Marcos
-Marcos
-
-Vanessa
+Ana Beatriz – Líder,
+Marcelo Henrique,
+Lindicy,
+João Lucas,
+Vanessa,
+Marcos,
