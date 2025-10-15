@@ -100,11 +100,11 @@ Cargo: Analista
 Salário: 4500
 Funcionário adicionado com ID: A1b2C
 
-## 🗃 Listando Departamentos:
+🗃 Listando Departamentos:
 ID: dept1, Nome: Recursos Humanos
 ID: dept2, Nome: Tecnologia da Informação
 
-## 🔄 Atribuindo Funcionário:
+🔄 Atribuindo Funcionário:
 ID do funcionário: A1b2C
 Informe ID ou nome do departamento: tecnologia da informação
 Funcionário atribuído ao departamento.
@@ -122,7 +122,7 @@ O sistema aceita atualizações parciais (ex: apenas nome)
 Os salários devem ser números positivos
 
 
-👩‍💼 Autores:
+## 👩‍💼 Autores:
 Ana Beatriz – Líder
 Marcelo Henrique
 Lindicy
