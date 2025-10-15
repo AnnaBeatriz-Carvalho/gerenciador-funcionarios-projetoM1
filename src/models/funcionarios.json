@@ -1,0 +1,26 @@
+[
+  {
+    "id": "LP1XoqTnxY",
+    "nome": "anna",
+    "cargo": "assistente",
+    "salario": 700,
+    "ativo": true,
+    "departamentoId": null
+  },
+  {
+    "id": "oxlitEyrhI",
+    "nome": "Diego Fonseca",
+    "cargo": "Alpinista",
+    "salario": 3000,
+    "ativo": true,
+    "departamentoId": "P-Is"
+  },
+  {
+    "id": "3nimLIo1ps",
+    "nome": "Luisa ",
+    "cargo": "gerente",
+    "salario": 2000,
+    "ativo": true,
+    "departamentoId": null
+  }
+]
