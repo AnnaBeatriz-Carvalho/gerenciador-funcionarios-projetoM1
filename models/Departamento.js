@@ -1,10 +1,9 @@
-import { nanoid } from 'nanoid';
-
+import gerarIdNumerico from '../utils/idGenerator.js';
 // Classe que representa um Departamento
 class Departamento {
   // Gera id automático se não for passado ou vazio
   constructor(id, nome) {
-    this.id = id && id.trim() !== '' ? id : nanoid(10); // Gera id curto automático
+    this.id = id && id.trim() !== '' ? id : gerarIdNumerico(8); // Gera id curto automático
 
     this.nome = nome.trim(); // Remove espaços extras do nome
   }

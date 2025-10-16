@@ -4,6 +4,7 @@
     "nome": "Maria Silva",
     "cargo": "Analista de Sistemas",
     "salario": 7000.5,
+    "dependentes": 0,
     "ativo": true,
     "departamentoId": "dep001xyz"
   },
@@ -12,6 +13,7 @@
     "nome": "Carlos Souza",
     "cargo": "Desenvolvedor",
     "salario": 6000,
+    "dependentes": 0,
     "ativo": true,
     "departamentoId": "dep002xyz"
   },
@@ -20,6 +22,7 @@
     "nome": "Ana Pereira",
     "cargo": "Designer Gráfico",
     "salario": 4500,
+    "dependentes": 0,
     "ativo": true,
     "departamentoId": "dep003xyz"
   },
@@ -28,6 +31,7 @@
     "nome": "João Santos",
     "cargo": "Gerente de Projetos",
     "salario": 9000,
+    "dependentes": 0,
     "ativo": true,
     "departamentoId": "dep001xyz"
   },
@@ -35,7 +39,8 @@
     "id": "efg654hij9",
     "nome": "Fernanda Costa",
     "cargo": "Analista de Marketing",
-    "salario": 5500,
+    "salario": 1500,
+    "dependentes": 3,
     "ativo": true,
     "departamentoId": "dep004xyz"
   },
@@ -44,6 +49,7 @@
     "nome": "Maria Carvalho",
     "cargo": "Analista de RH",
     "salario": 3000,
+    "dependentes": 0,
     "ativo": true,
     "departamentoId": "dep002xyz"
   },
@@ -52,6 +58,7 @@
     "nome": "Anna Carvalho",
     "cargo": "Desenvolvedora Front-End",
     "salario": 3000,
+    "dependentes": 0,
     "ativo": true,
     "departamentoId": "dep001xyz"
   }
